@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {ContactDialogComponent} from '../contact/contact-dialog/contact-dialog.component';
 import {MatDialog} from '@angular/material/dialog';
 import {GalleryDialogComponent} from './gallery-dialog/gallery-dialog.component';
 import {HttpClient} from '@angular/common/http';

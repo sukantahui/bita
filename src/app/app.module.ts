@@ -15,12 +15,10 @@ import { MaterialModule } from './core/material.module';
 
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HomeComponent } from './pages/home/home.component';
+
 
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { PictureCarouselComponent } from './pages/home/picture-carousel/picture-carousel.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
-import { AuthComponent } from './pages/auth/auth.component';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import {AuthInterceptorInterceptor} from './services/auth-interceptor.interceptor';
 import {NgxPrintModule} from 'ngx-print';
@@ -34,13 +32,9 @@ import { LoaidngHourglassComponent } from './shared/loaidng-hourglass/loaidng-ho
 import { LoaidngRollerComponent } from './shared/loaidng-roller/loaidng-roller.component';
 import { DateAdapter } from '@angular/material/core';
 import { DateFormat } from './date-format';
-import { ContactComponent } from './pages/contact/contact.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
-import { VideoComponent } from './pages/video/video.component';
-import { ContactDialogComponent } from './pages/contact/contact-dialog/contact-dialog.component';
 import { GalleryDialogComponent } from './pages/gallery/gallery-dialog/gallery-dialog.component';
-import { TestimonyComponent } from './pages/testimony/testimony.component';
-import { TestimonyDialogComponent } from './pages/testimony/testimony-dialog/testimony-dialog.component';
+
 
 
 
@@ -49,9 +43,6 @@ import { TestimonyDialogComponent } from './pages/testimony/testimony-dialog/tes
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent,
-    PictureCarouselComponent,
-    AuthComponent,
     LoadingSpinnerComponent,
     SncakBarComponent,
     ConfirmationDialogComponent,
@@ -59,13 +50,8 @@ import { TestimonyDialogComponent } from './pages/testimony/testimony-dialog/tes
     LoaidngEllipsisComponent,
     LoaidngHourglassComponent,
     LoaidngRollerComponent,
-    ContactComponent,
     GalleryComponent,
-    VideoComponent,
-    ContactDialogComponent,
     GalleryDialogComponent,
-    TestimonyComponent,
-    TestimonyDialogComponent
   ],
   imports: [
     BrowserModule,
